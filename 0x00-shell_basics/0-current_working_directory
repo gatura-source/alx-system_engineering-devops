@@ -1,9 +1,0 @@
-!#/bin/bash
-
-
-echo -e "script will print current working directory\n"
-
-dir=$(pwd)
-
-echo -e "The working dir is $dir\n"
-
