@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 
 echo -e "Script prints to standard output the working directory\n"
