@@ -1,3 +1,2 @@
 #!/bin/bash
-echo -e "Script prints to standard output the working directory\n"
 echo -e "The working directory is $(pwd)\n"
