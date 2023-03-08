@@ -1,0 +1,7 @@
+#!/bin/bash
+base_dir="$(dirname "$(pwd)")"
+for file in *.html; do
+	if [! -e "$base_dir/$file"] || ["$file" -nt "$base_dir/$file"]; then
+		cp "$file" "$base_dir"
+	fi
+done
