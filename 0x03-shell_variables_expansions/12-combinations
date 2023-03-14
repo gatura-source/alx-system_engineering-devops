@@ -1,0 +1,2 @@
+#!/bin/bash
+for i in {a..z}; do [[ $i == "o" ]] || for j in {a..z}; do [[ $j == "o" ]] || k=$i$j || for k; do [[ k == "oo"]] || echo $k; done; done; done | sort
